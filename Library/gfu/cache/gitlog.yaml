@@ -1,0 +1,533 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-11-24T13:36:41.918+03:00
+  initializedAtString: 2019-11-24T13:20:39.071+03:00
+  log:
+  - commitID: 15566a01d353784bc35f2ab8e0bfef162fb23a56
+    mergeA: 
+    mergeB: 
+    authorName: hasanozdemir
+    authorEmail: hasanozdemirfrost01@gmail.com
+    commitEmail: hasanozdemirfrost01@gmail.com
+    commitName: hasanozdemir
+    summary: ver 1.0
+    description: 
+    timeString: 2019-11-24T13:27:37.000+03:00
+    commitTimeString: 2019-11-24T13:27:37.000+03:00
+    changes:
+    - path: .collabignore
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\.collabignore"
+      projectPath: .collabignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins.meta"
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub.meta"
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor.meta"
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\ExtensionLoader.cs"
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\ExtensionLoader.cs.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.45.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.45.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\GitHub.UnityShim.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf"
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\UnityAPIWrapper.cs"
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\UnityAPIWrapper.cs.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\big-logo@2x.png"
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\big-logo@2x.png.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\credits.txt"
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\credits.txt.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\eula.txt"
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\eula.txt.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\x64.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\x86.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scenes.meta"
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scenes\\SampleScene.unity"
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scenes\\SampleScene.unity.meta"
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts.meta"
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CameraScript.cs
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\CameraScript.cs"
+      projectPath: Assets\Scripts\CameraScript.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CameraScript.cs.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\CameraScript.cs.meta"
+      projectPath: Assets\Scripts\CameraScript.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MapManagerScript.cs
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\MapManagerScript.cs"
+      projectPath: Assets\Scripts\MapManagerScript.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MapManagerScript.cs.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\MapManagerScript.cs.meta"
+      projectPath: Assets\Scripts\MapManagerScript.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerScript.cs
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\PlayerScript.cs"
+      projectPath: Assets\Scripts\PlayerScript.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerScript.cs.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\PlayerScript.cs.meta"
+      projectPath: Assets\Scripts\PlayerScript.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\background.png
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\background.png"
+      projectPath: Assets\background.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\background.png.meta
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\background.png.meta"
+      projectPath: Assets\background.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Packages\\manifest.json"
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\AudioManager.asset"
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\ClusterInputManager.asset"
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\DynamicsManager.asset"
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\EditorBuildSettings.asset"
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\EditorSettings.asset"
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\GraphicsSettings.asset"
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\InputManager.asset"
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\NavMeshAreas.asset"
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\NetworkManager.asset"
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\Physics2DSettings.asset"
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\PresetManager.asset"
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\ProjectSettings.asset"
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\ProjectVersion.txt"
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\QualitySettings.asset"
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\TagManager.asset"
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\TimeManager.asset"
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\ProjectSettings\\UnityConnectSettings.asset"
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 517a83849ec617c53aa7ed7e53258c5f6d711aa5
+    mergeA: 
+    mergeB: 
+    authorName: Synthesizer-source
+    authorEmail: 56120358+Synthesizer-source@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: 
+    timeString: 2019-11-24T13:22:34.000+03:00
+    commitTimeString: 2019-11-24T13:22:34.000+03:00
+    changes:
+    - path: .gitignore
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\.gitignore"
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: LICENSE
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\LICENSE"
+      projectPath: LICENSE
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: README.md
+      fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\README.md"
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
