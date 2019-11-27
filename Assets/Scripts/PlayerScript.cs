@@ -10,6 +10,8 @@ public class PlayerScript : MonoBehaviour {
     public int jumpCount;//double jump
     public int maxHeight;
     private int currentHeight;
+    public GameObject jump;
+    Vector3 jumpOffset;
 
     bool getDamage;
 
@@ -22,6 +24,7 @@ public class PlayerScript : MonoBehaviour {
     void Start () {
         getDamage = false;  
         rigidBody = GetComponent<Rigidbody2D>();
+        jumpOffset = new Vector3(0f, -0.35f, -1.5f);
     }
 	
 	// Update is called once per frame
@@ -55,7 +58,7 @@ public class PlayerScript : MonoBehaviour {
             {
                 jumpCount--;
                 rigidBody.velocity = Vector2.up * speed * 5f;
-
+                Instantiate(jump,gameObject.transform.position + jumpOffset, Quaternion.identity);
             }
 
         }

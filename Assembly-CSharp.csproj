@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\MapManagerScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\UIManagerScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/hasan/OneDrive/Masaüstü/Unity Project/GameOff2019/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
