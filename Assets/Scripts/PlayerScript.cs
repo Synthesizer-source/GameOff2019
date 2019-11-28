@@ -13,6 +13,8 @@ public class PlayerScript : MonoBehaviour {
     public GameObject jump;
     Vector3 jumpOffset;
 
+    private int kill;
+
     bool getDamage;
 
     public int CurrentHeight
@@ -20,8 +22,15 @@ public class PlayerScript : MonoBehaviour {
         get { return currentHeight; }
     }
 
+    public int Kill
+    {
+        set { kill = value; }
+        get { return kill; }
+    }
+
     // Use this for initialization
     void Start () {
+        kill = 0;
         getDamage = false;  
         rigidBody = GetComponent<Rigidbody2D>();
         jumpOffset = new Vector3(0f, -0.35f, -1.5f);

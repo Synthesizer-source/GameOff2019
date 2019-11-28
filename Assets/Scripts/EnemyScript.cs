@@ -41,7 +41,7 @@ public class EnemyScript : MonoBehaviour {
     {
         if (other.layer.Equals(9))
         {
-            
+            player.GetComponent<PlayerScript>().Kill++;
             Destroy(other);
             Destroy(gameObject);
 

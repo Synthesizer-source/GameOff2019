@@ -7,6 +7,7 @@ public class UIManagerScript : MonoBehaviour {
 
     public Text currentScore;
     public Text maxScore;
+    public Text killScore;
     GameObject player;
 
 	// Use this for initialization
@@ -21,6 +22,7 @@ public class UIManagerScript : MonoBehaviour {
 
         currentScore.text = player.GetComponent<PlayerScript>().CurrentHeight.ToString();
         maxScore.text = "MAX : " + player.GetComponent<PlayerScript>().maxHeight.ToString();
+        killScore.text = "KILL : " + player.GetComponent<PlayerScript>().Kill;
 
     }
 }
