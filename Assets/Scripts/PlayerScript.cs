@@ -12,6 +12,8 @@ public class PlayerScript : MonoBehaviour {
     private int currentHeight;
     public GameObject jump;
     Vector3 jumpOffset;
+    AudioSource audioSource;
+    public AudioClip audioJump;
 
     private int kill;
 
@@ -30,6 +32,7 @@ public class PlayerScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        audioSource = GetComponent<AudioSource>();
         kill = 0;
         getDamage = false;  
         rigidBody = GetComponent<Rigidbody2D>();
@@ -40,7 +43,7 @@ public class PlayerScript : MonoBehaviour {
 	void Update () {
 
         currentHeight = (int)transform.position.y;
-
+        
         if (getDamage)
         {
             GetComponent<BoxCollider2D>().isTrigger = true;
@@ -63,6 +66,9 @@ public class PlayerScript : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            //audioSource.clip = audioJump;
+            audioSource.PlayOneShot(audioJump);
+
             if (jumpCount > 0)// && isPlay
             {
                 jumpCount--;
