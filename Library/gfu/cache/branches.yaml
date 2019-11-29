@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-11-24T13:35:51.433+03:00
-  initializedAtString: 2019-11-24T13:20:42.598+03:00
+  lastUpdatedAtString: 2019-11-29T20:42:28.602+03:00
+  initializedAtString: 2019-11-29T20:42:28.581+03:00
   localBranches:
   - name: master
-    tracking: 
+    tracking: origin/master
   - name: ver_1.0
     tracking: origin/ver_1.0
   remoteBranches:
@@ -39,9 +39,9 @@ MonoBehaviour:
     values:
     - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/Synthesizer-source/GameOff2019
+      trackingBranch: master
     - name: ver_1.0
       remote:
         name: origin
