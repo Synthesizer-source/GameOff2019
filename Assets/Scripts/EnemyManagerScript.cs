@@ -8,6 +8,7 @@ public class EnemyManagerScript : MonoBehaviour {
     public float spawnTime;
     public GameObject[] spawnPoints;
     public GameObject[] enemies;
+    private List<GameObject> spawnedEnemies;
     public GameObject player;
 
     float timer;
@@ -15,7 +16,7 @@ public class EnemyManagerScript : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
+        spawnedEnemies = new List<GameObject>();
         timer = 0.0f;
     }
 
@@ -25,14 +26,15 @@ public class EnemyManagerScript : MonoBehaviour {
 
         transform.position.Set(player.transform.position.x, player.transform.position.y, player.transform.position.z);
 
-        if (player.transform.position.y > spawnHeight)
+        if (player.transform.position.y > spawnHeight && !player.GetComponent<PlayerScript>().OnGround)
         {
             if (timer >= spawnTime)
             {
                 int spawnPointIndex = Random.Range(0, spawnPoints.Length);
                 int enemyIndex = Random.Range(0, enemies.Length);
 
-                Instantiate(enemies[enemyIndex], spawnPoints[spawnPointIndex].transform.position, Quaternion.identity);
+                GameObject instance=Instantiate(enemies[enemyIndex], spawnPoints[spawnPointIndex].transform.position, Quaternion.identity);
+                spawnedEnemies.Add(instance);
 
                 timer = 0.0f;
             }
@@ -43,6 +45,20 @@ public class EnemyManagerScript : MonoBehaviour {
 
 
         }
+
+        if (player.GetComponent<PlayerScript>().OnGround)
+        {
+            foreach (GameObject enemy in spawnedEnemies)
+            {
+                Destroy(enemy);
+            }
+
+            spawnedEnemies.Clear();
+        }
+        
+
+        
+
 
     }
 }

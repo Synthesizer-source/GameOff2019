@@ -5,6 +5,7 @@ using UnityEngine;
 public class MapManagerScript : MonoBehaviour {
 
     public List<GameObject> platforms;
+    public GameObject finishPlatform;
 
     public float numberOfPlatforms;
     public float levelWidth = 8f;
@@ -21,20 +22,29 @@ public class MapManagerScript : MonoBehaviour {
             spawnPoint.y += Random.Range(minY, maxY);
             spawnPoint.x = Random.Range(-levelWidth, levelWidth);
             int index = Random.Range(0, 10);
-
-
-            if (index < 8)
+            
+            if (i == 999)
             {
-                Instantiate(platforms[0], spawnPoint, platforms[0].transform.rotation);
-            }
-            else if (index.Equals(8))
-            {
-                Instantiate(platforms[1], spawnPoint, platforms[1].transform.rotation);
+                spawnPoint.x = 0;
+                finishPlatform.transform.position = spawnPoint;
+                
             }
             else
             {
-                spawnPoint.x = 0;
-                Instantiate(platforms[2], spawnPoint, platforms[2].transform.rotation);
+                if (index < 8)
+                {
+                    Instantiate(platforms[0], spawnPoint, platforms[0].transform.rotation);
+                }
+                else if (index.Equals(8))
+                {
+                    Instantiate(platforms[1], spawnPoint, platforms[1].transform.rotation);
+                }
+                else
+                {
+                    spawnPoint.x = 0;
+                    Instantiate(platforms[2], spawnPoint, platforms[2].transform.rotation);
+                }
+
             }
 
         }

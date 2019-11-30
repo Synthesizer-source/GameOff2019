@@ -15,9 +15,11 @@ public class PlayerScript : MonoBehaviour {
     AudioSource audioSource;
     public AudioClip audioJump;
 
+    private bool onGround;
+
     private int kill;
 
-    bool getDamage;
+    private bool getDamage;
 
     public int CurrentHeight
     {
@@ -28,6 +30,16 @@ public class PlayerScript : MonoBehaviour {
     {
         set { kill = value; }
         get { return kill; }
+    }
+
+    public bool GetDamage
+    {
+        get { return getDamage; }
+    }
+
+    public bool OnGround
+    {
+        get { return onGround; }
     }
 
     // Use this for initialization
@@ -90,20 +102,37 @@ public class PlayerScript : MonoBehaviour {
     {
         if (collision.gameObject.layer.Equals(10))
         {
-
             getDamage = true;
         }
+
+        if (collision.gameObject.layer.Equals(8) && collision.gameObject.tag.Equals("Finish"))
+        {
+            if (collision.gameObject.transform.position.y < gameObject.transform.position.y)
+            {
+
+                collision.gameObject.GetComponentInChildren<ParticleSystem>().Play();
+                onGround = true;
+            }
+        }
+
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.layer.Equals(8))
+        if (collision.gameObject.layer.Equals(8) && !collision.gameObject.tag.Equals("Finish"))
         {
+            onGround = false;
+
             if (collision.gameObject.transform.position.y < gameObject.transform.position.y)
             {
                 jumpCount = 1;
             }
         }
+
+
+        
+
+
 
     }
 
@@ -111,9 +140,11 @@ public class PlayerScript : MonoBehaviour {
     {
         if (collision.gameObject.tag.Equals("Ground"))
         {
+            onGround = true;
             getDamage = false;
             GetComponent<BoxCollider2D>().isTrigger = false;
         }
+        
     }
 
 }
