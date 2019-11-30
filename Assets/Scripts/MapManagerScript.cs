@@ -20,7 +20,7 @@ public class MapManagerScript : MonoBehaviour {
 
             spawnPoint.y += Random.Range(minY, maxY);
             spawnPoint.x = Random.Range(-levelWidth, levelWidth);
-            int index = Random.Range(0, 8);
+            int index = Random.Range(0, 10);
 
 
             if (index < 8)
@@ -33,6 +33,7 @@ public class MapManagerScript : MonoBehaviour {
             }
             else
             {
+                spawnPoint.x = 0;
                 Instantiate(platforms[2], spawnPoint, platforms[2].transform.rotation);
             }
 
