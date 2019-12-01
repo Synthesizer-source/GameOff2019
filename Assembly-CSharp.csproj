@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\EnemySpawnPointScript.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\MapManagerScript.cs" />
+    <Compile Include="Assets\Scripts\MouseScript.cs" />
     <Compile Include="Assets\Scripts\ObjectBoundaries.cs" />
     <Compile Include="Assets\Scripts\PauseMenuScript.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />

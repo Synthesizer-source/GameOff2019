@@ -8,13 +8,15 @@ public class GameManagerScript : MonoBehaviour {
     public AudioClip audioMainMusic;
     bool isPlay;
     public GameObject mainMenu;
+    public GameObject finishScreen;
+    public static bool gameIsFinished;
+    float timer = 0.0f;
 
     void Start()
     {
         Time.timeScale = 0f;
     }
-
-
+    
     // Use this for initialization
     void Awake   () {
         isPlay = false;
@@ -23,13 +25,24 @@ public class GameManagerScript : MonoBehaviour {
         audioSource.clip = audioMainMusic;
 
         audioSource.Play();
-        
+
 	}
 	
 	// Update is called once per frame
 	void LateUpdate () {
 
-        
+        if (gameIsFinished)
+        {
+            timer += Time.deltaTime;
+
+            if (timer>=5.0f)
+            {
+
+                finishScreen.SetActive(true);
+
+            }
+            
+        }
         
 	}
 
@@ -43,5 +56,6 @@ public class GameManagerScript : MonoBehaviour {
     {
         Application.Quit();
     }
+
 
 }

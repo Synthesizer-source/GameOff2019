@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-11-30T12:44:52.017+03:00
-  initializedAtString: 2019-11-30T12:12:49.424+03:00
+  lastUpdatedAtString: 2019-12-01T18:22:26.539+03:00
+  initializedAtString: 2019-12-01T18:12:56.828+03:00
   entries:
   - path: .vs\GameOff2019\v15\Browse.VC.db
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\.vs\\GameOff2019\\v15\\Browse.VC.db"
@@ -69,51 +69,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\PauseMenuScript.cs
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\PauseMenuScript.cs"
-    projectPath: Assets\PauseMenuScript.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\PauseMenuScript.cs.meta
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\PauseMenuScript.cs.meta"
-    projectPath: Assets\PauseMenuScript.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Assets\Prefabs\Platform_1.prefab
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Prefabs\\Platform_1.prefab"
-    projectPath: Assets\Prefabs\Platform_1.prefab
+  - path: Assets\machine_gun.png
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\machine_gun.png"
+    projectPath: Assets\machine_gun.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Prefabs\Platform_1.prefab.meta
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Prefabs\\Platform_1.prefab.meta"
-    projectPath: Assets\Prefabs\Platform_1.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Platform_2.prefab
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Prefabs\\Platform_2.prefab"
-    projectPath: Assets\Prefabs\Platform_2.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Platform_2.prefab.meta
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Prefabs\\Platform_2.prefab.meta"
-    projectPath: Assets\Prefabs\Platform_2.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Platform_3.prefab
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Prefabs\\Platform_3.prefab"
-    projectPath: Assets\Prefabs\Platform_3.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Platform_3.prefab.meta
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Prefabs\\Platform_3.prefab.meta"
-    projectPath: Assets\Prefabs\Platform_3.prefab.meta
+  - path: Assets\machine_gun.png.meta
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\machine_gun.png.meta"
+    projectPath: Assets\machine_gun.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -123,24 +87,36 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Scripts\GameManagerScript.cs
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\GameManagerScript.cs"
+    projectPath: Assets\Scripts\GameManagerScript.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\MapManagerScript.cs
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\MapManagerScript.cs"
     projectPath: Assets\Scripts\MapManagerScript.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\PauseMenuScript.cs
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\PauseMenuScript.cs"
-    projectPath: Assets\Scripts\PauseMenuScript.cs
+  - path: Assets\Scripts\PlayerScript.cs
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\PlayerScript.cs"
+    projectPath: Assets\Scripts\PlayerScript.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\PauseMenuScript.cs.meta
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\Scripts\\PauseMenuScript.cs.meta"
-    projectPath: Assets\Scripts\PauseMenuScript.cs.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\shotgun.png
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\shotgun.png"
+    projectPath: Assets\shotgun.png
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\shotgun.png.meta
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Assets\\shotgun.png.meta"
+    projectPath: Assets\shotgun.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\assetDatabase3
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\assetDatabase3"
     projectPath: Library\assetDatabase3
@@ -150,6 +126,12 @@ MonoBehaviour:
   - path: Library\CurrentLayout.dwlt
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\CurrentLayout.dwlt"
     projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\CurrentMaximizeLayout.dwlt
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\CurrentMaximizeLayout.dwlt"
+    projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -195,45 +177,57 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\InspectorExpandedItems.asset"
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\metadata\01\015230bee17504a4382f9658e0c58e26
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\01\\015230bee17504a4382f9658e0c58e26"
+    projectPath: Library\metadata\01\015230bee17504a4382f9658e0c58e26
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\04\041e0605a4d667e48846c40c46976537
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\04\\041e0605a4d667e48846c40c46976537"
-    projectPath: Library\metadata\04\041e0605a4d667e48846c40c46976537
+    workTreeStatus: 5
+  - path: Library\metadata\01\015230bee17504a4382f9658e0c58e26.info
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\01\\015230bee17504a4382f9658e0c58e26.info"
+    projectPath: Library\metadata\01\015230bee17504a4382f9658e0c58e26.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\metadata\04\041e0605a4d667e48846c40c46976537.info
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\04\\041e0605a4d667e48846c40c46976537.info"
     projectPath: Library\metadata\04\041e0605a4d667e48846c40c46976537.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\04\041fa3f99ebf26e4b903550312f607d5
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\04\\041fa3f99ebf26e4b903550312f607d5"
+    projectPath: Library\metadata\04\041fa3f99ebf26e4b903550312f607d5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\12\12f5a54997ccad1468c49540fb09c4de
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\12\\12f5a54997ccad1468c49540fb09c4de"
     projectPath: Library\metadata\12\12f5a54997ccad1468c49540fb09c4de
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\69\694eeb95dbf9adf4ea623db7c60e4a52
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\69\\694eeb95dbf9adf4ea623db7c60e4a52"
-    projectPath: Library\metadata\69\694eeb95dbf9adf4ea623db7c60e4a52
+  - path: Library\metadata\62\62acc824adb867246b598c1e7d78e841.info
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\62\\62acc824adb867246b598c1e7d78e841.info"
+    projectPath: Library\metadata\62\62acc824adb867246b598c1e7d78e841.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\69\694eeb95dbf9adf4ea623db7c60e4a52.info
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\69\\694eeb95dbf9adf4ea623db7c60e4a52.info"
     projectPath: Library\metadata\69\694eeb95dbf9adf4ea623db7c60e4a52.info
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\6d\6dccdecca2b361e4792f7e6a549577bb
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\6d\\6dccdecca2b361e4792f7e6a549577bb"
+    projectPath: Library\metadata\6d\6dccdecca2b361e4792f7e6a549577bb
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\7c\7c825b4c0917a294cafe8604b9cbacb9
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\7c\\7c825b4c0917a294cafe8604b9cbacb9"
-    projectPath: Library\metadata\7c\7c825b4c0917a294cafe8604b9cbacb9
+  - path: Library\metadata\6d\6dccdecca2b361e4792f7e6a549577bb.info
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\6d\\6dccdecca2b361e4792f7e6a549577bb.info"
+    projectPath: Library\metadata\6d\6dccdecca2b361e4792f7e6a549577bb.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -241,14 +235,92 @@ MonoBehaviour:
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\7c\\7c825b4c0917a294cafe8604b9cbacb9.info"
     projectPath: Library\metadata\7c\7c825b4c0917a294cafe8604b9cbacb9.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\ca\ca1c22cffb5fd5c4ca1bcedf4739120a
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\ca\\ca1c22cffb5fd5c4ca1bcedf4739120a"
-    projectPath: Library\metadata\ca\ca1c22cffb5fd5c4ca1bcedf4739120a
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\99\995e039a2e41ec441a1b6f7ca28ec6fc
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\99\\995e039a2e41ec441a1b6f7ca28ec6fc"
+    projectPath: Library\metadata\99\995e039a2e41ec441a1b6f7ca28ec6fc
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\metadata\9f\9f966dc957ec37147a55d6d86d2bc2a9
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\9f\\9f966dc957ec37147a55d6d86d2bc2a9"
+    projectPath: Library\metadata\9f\9f966dc957ec37147a55d6d86d2bc2a9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\9f\9f966dc957ec37147a55d6d86d2bc2a9.info
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\9f\\9f966dc957ec37147a55d6d86d2bc2a9.info"
+    projectPath: Library\metadata\9f\9f966dc957ec37147a55d6d86d2bc2a9.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d8\d8943c60926fa4b4d8d0fed8140f0f84
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\d8\\d8943c60926fa4b4d8d0fed8140f0f84"
+    projectPath: Library\metadata\d8\d8943c60926fa4b4d8d0fed8140f0f84
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\d8\d8943c60926fa4b4d8d0fed8140f0f84.info
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\d8\\d8943c60926fa4b4d8d0fed8140f0f84.info"
+    projectPath: Library\metadata\d8\d8943c60926fa4b4d8d0fed8140f0f84.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\e5\e5af6a184f5e9e245bb589dfef73e878
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\e5\\e5af6a184f5e9e245bb589dfef73e878"
+    projectPath: Library\metadata\e5\e5af6a184f5e9e245bb589dfef73e878
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e5\e5af6a184f5e9e245bb589dfef73e878.info
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\e5\\e5af6a184f5e9e245bb589dfef73e878.info"
+    projectPath: Library\metadata\e5\e5af6a184f5e9e245bb589dfef73e878.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e7\e74cb7d47632c8846888f93053735764
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\e7\\e74cb7d47632c8846888f93053735764"
+    projectPath: Library\metadata\e7\e74cb7d47632c8846888f93053735764
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f5\f576c1981001f7243970fb1666a1aa8d
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\f5\\f576c1981001f7243970fb1666a1aa8d"
+    projectPath: Library\metadata\f5\f576c1981001f7243970fb1666a1aa8d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\f5\f576c1981001f7243970fb1666a1aa8d.info
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\f5\\f576c1981001f7243970fb1666a1aa8d.info"
+    projectPath: Library\metadata\f5\f576c1981001f7243970fb1666a1aa8d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\f6\f6928092715eb304092504721627d7f4
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\f6\\f6928092715eb304092504721627d7f4"
+    projectPath: Library\metadata\f6\f6928092715eb304092504721627d7f4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f6\f6928092715eb304092504721627d7f4.info
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\f6\\f6928092715eb304092504721627d7f4.info"
+    projectPath: Library\metadata\f6\f6928092715eb304092504721627d7f4.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\f6\f6afba7227d4f634fbccf8a8baff827a
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\f6\\f6afba7227d4f634fbccf8a8baff827a"
+    projectPath: Library\metadata\f6\f6afba7227d4f634fbccf8a8baff827a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\f6\f6afba7227d4f634fbccf8a8baff827a.info
+    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\metadata\\f6\\f6afba7227d4f634fbccf8a8baff827a.info"
+    projectPath: Library\metadata\f6\f6afba7227d4f634fbccf8a8baff827a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Library\\ScriptAssemblies\\Assembly-CSharp.dll.mdb"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
@@ -264,24 +336,6 @@ MonoBehaviour:
   - path: Temp\UnityLockfile
     fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Temp\\UnityLockfile"
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4cbb1ea0e5c111e48adc92d80b9800d0
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Temp\\UnityTempFile-4cbb1ea0e5c111e48adc92d80b9800d0"
-    projectPath: Temp\UnityTempFile-4cbb1ea0e5c111e48adc92d80b9800d0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-84d19c5021655514b9a386bffea99b53
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Temp\\UnityTempFile-84d19c5021655514b9a386bffea99b53"
-    projectPath: Temp\UnityTempFile-84d19c5021655514b9a386bffea99b53
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c156031dabe0cdd4f9bfadfc2507a684
-    fullPath: "C:\\Users\\hasan\\OneDrive\\Masa\xFCst\xFC\\Unity Project\\GameOff2019\\Temp\\UnityTempFile-c156031dabe0cdd4f9bfadfc2507a684"
-    projectPath: Temp\UnityTempFile-c156031dabe0cdd4f9bfadfc2507a684
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

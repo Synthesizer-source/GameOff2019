@@ -109,7 +109,7 @@ public class PlayerScript : MonoBehaviour {
         {
             if (collision.gameObject.transform.position.y < gameObject.transform.position.y)
             {
-
+                GameManagerScript.gameIsFinished = true;
                 collision.gameObject.GetComponentInChildren<ParticleSystem>().Play();
                 onGround = true;
             }

@@ -23,7 +23,7 @@ public class MapManagerScript : MonoBehaviour {
             spawnPoint.x = Random.Range(-levelWidth, levelWidth);
             int index = Random.Range(0, 10);
             
-            if (i == 999)
+            if (i == numberOfPlatforms-1)
             {
                 spawnPoint.x = 0;
                 finishPlatform.transform.position = spawnPoint;
