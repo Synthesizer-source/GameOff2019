@@ -44,6 +44,7 @@ public class PlayerScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        
         audioSource = GetComponent<AudioSource>();
         kill = 0;
         getDamage = false;  
@@ -54,19 +55,23 @@ public class PlayerScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        currentHeight = (int)transform.position.y;
+        if (GameManagerScript.isPlay)
+        {
+            currentHeight = (int)transform.position.y;
+
+            if (getDamage)
+            {
+                GetComponent<BoxCollider2D>().isTrigger = true;
+            }
+
+            if (maxHeight < currentHeight)
+            {
+                maxHeight = currentHeight;
+            }
+
+            Move(); 
+        }
         
-        if (getDamage)
-        {
-            GetComponent<BoxCollider2D>().isTrigger = true;
-        }
-
-        if (maxHeight < currentHeight)
-        {
-            maxHeight = currentHeight;
-        }
-
-        Move();
     }
 
     /// <summary>

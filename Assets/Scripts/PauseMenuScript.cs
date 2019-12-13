@@ -15,6 +15,7 @@ public class PauseMenuScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        gameIsPaused = false;
         isSoundOn = true;
         if (isSoundOn)
         {
@@ -104,7 +105,10 @@ public class PauseMenuScript : MonoBehaviour {
 
     public void Restart()
     {
-        SceneManager.LoadScene(0);
+        //Application.LoadLevel(Application.loadedLevel);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
+        
     }
     public void Exit()
     {

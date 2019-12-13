@@ -22,16 +22,25 @@ public class ShotgunScript : MonoBehaviour {
         transform.position = (Vector2)player.transform.position + offset;
     }
 
+    private void Awake()
+    {
+        fireFree = true;
+        isReload = false;
+        duration = audioShoutgun.length;
+        transform.position = (Vector2)player.transform.position + offset;
+    }
+
     // Update is called once per frame
     void Update()
     {
 
-        if (!PauseMenuScript.gameIsPaused)
+        if (!PauseMenuScript.gameIsPaused && GameManagerScript.isPlay)
         {
 
             Vector3 pos = player.transform.position + (Vector3)offset + Vector3.back * 5;
             //transform.position = (Vector2)player.transform.position + offset;
             transform.position = pos;
+            
             Vector3 mousePosition = Input.mousePosition;
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             Vector3 direction = mousePosition - transform.position;

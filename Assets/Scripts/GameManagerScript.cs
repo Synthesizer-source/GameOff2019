@@ -6,16 +6,20 @@ public class GameManagerScript : MonoBehaviour {
 
     AudioSource audioSource;
     public AudioClip audioMainMusic;
-    bool isPlay;
+    public static bool isPlay;
     public GameObject mainMenu;
     public GameObject finishScreen;
     public static bool gameIsFinished;
     float timer = 0.0f;
-
+    
     void Start()
     {
+        
         Time.timeScale = 0f;
+        
     }
+
+    
     
     // Use this for initialization
     void Awake   () {
@@ -23,7 +27,7 @@ public class GameManagerScript : MonoBehaviour {
         audioSource = GetComponent<AudioSource>();
         audioSource.loop = true;
         audioSource.clip = audioMainMusic;
-
+        
         audioSource.Play();
 
 	}
@@ -49,6 +53,7 @@ public class GameManagerScript : MonoBehaviour {
     public void Play()
     {
         Time.timeScale = 1f;
+        isPlay = true;
         mainMenu.SetActive(false);
     }
 
